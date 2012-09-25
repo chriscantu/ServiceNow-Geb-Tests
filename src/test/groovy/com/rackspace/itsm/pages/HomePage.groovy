@@ -8,7 +8,7 @@ class HomePage extends BasePage {
 
     static content = {
         
-        username { $("span", id: "gsft_full_name") }
+        username(wait:true) { $("a", id: "gsft_full_name") }
         
         logoutButton { $("span#gsft_logout > button.nav_header_button") }
         
