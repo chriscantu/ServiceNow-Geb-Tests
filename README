@@ -9,7 +9,8 @@ Requirements
 
 To Run Tests
 --------
-* Enter command "gradle test"
+* To Run All Tests enter the command "gradle test"
+* To Run a Single Test, enter the command "gradle test(TestName)" (IE: LoginSpec, gradle testLogin)
 
 For Browers Use
 --------
