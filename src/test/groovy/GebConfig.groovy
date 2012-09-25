@@ -28,7 +28,7 @@ environments {
 
 reportOnTestFailureOnly = true
 reportsDir = "build/feedback/"
-baseUrl = "https://demo1.service-now.com/"
+baseUrl = "https://demo08.service-now.com/"
 autoClearCookies = true
 
 cloudUser = "joe.cloud"
