@@ -1,0 +1,17 @@
+Unified Ticketing Automated Tests
+=============================
+
+Requirements
+--------
+* Java 1.6 Installed
+* Groovy 1.7+ Installed
+* Gradle 1.2+ installed
+
+To Run Tests
+--------
+* Enter command "gradle test"
+
+For Browers Use
+--------
+* Firefox (latest version)
+* Chrome (latest version)
