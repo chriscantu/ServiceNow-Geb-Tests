@@ -7,7 +7,7 @@ abstract class BaseSpec extends GebReportingSpec {
     
     static loginName, password, userName
     
-    static defaultUser = [ loginName: 'joe.cloud', password: 'snow123', username: 'Joe Cloud' ]
+    static defaultUser = [ loginName: 'itil', password: 'itil', username: 'ITIL User' ]
     
     def getUserCredentials(profile) {
         loginName = config.readValue( "${profile}LoginName", defaultUser.loginName )
