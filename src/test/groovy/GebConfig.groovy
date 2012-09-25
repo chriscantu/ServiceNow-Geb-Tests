@@ -13,7 +13,6 @@ environments {
         driver = new HtmlUnitDriver()
     }
     
-    // run as “grails -Dgeb.env=chrome test-app”
     // See: http://code.google.com/p/selenium/wiki/ChromeDriver
     chrome {
         driver = { new ChromeDriver() }
@@ -31,10 +30,14 @@ reportsDir = "build/feedback/"
 baseUrl = "https://demo08.service-now.com/"
 autoClearCookies = true
 
-cloudUser = "joe.cloud"
-cloudUserName = "Joe Cloud"
-cloudPassword = "snow123"
+itilLoginName = 'itil'
+itilPassword = 'itil'
+itilUsername ='ITIL User'
 
-supportLoginName = 'joe.cloud'
-supportPassword = 'snow123'
-supportUsername ='Joe Cloud'
+adminLoginName = 'admin'
+adminPassword = 'admin'
+adminUsername ='System Adminsitrator'
+
+employeeLoginName = 'employee'
+employeePassword = 'employee'
+employeeUsername ='Joe Employee'
