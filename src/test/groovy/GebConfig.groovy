@@ -32,12 +32,12 @@ autoClearCookies = true
 
 itilLoginName = 'itil'
 itilPassword = 'itil'
-itilUsername ='ITIL User'
+itilUserName ='ITIL User'
 
 adminLoginName = 'admin'
 adminPassword = 'admin'
-adminUsername ='System Adminsitrator'
+adminUserName ='System Administrator'
 
 employeeLoginName = 'employee'
 employeePassword = 'employee'
-employeeUsername ='Joe Employee'
+employeeUserName ='Joe Employee'
