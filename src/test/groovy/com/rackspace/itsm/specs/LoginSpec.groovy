@@ -9,9 +9,9 @@ class LoginSpec extends GebReportingSpec {
     
     def getUser() {
         [
-            loginName: config.readValue('supportLoginName', 'joe.cloud'), 
-            password: config.readValue('supportPassword', 'snow123'),
-            username: config.readValue('supportUserName', 'Joe Cloud')
+            loginName: config.readValue('adminLoginName', 'fallBackLogin'), 
+            password: config.readValue('adminPassword', 'fallBackPassword'),
+            username: config.readValue('adminUserName', 'fallUserName')
         ]
     }
     
@@ -19,7 +19,7 @@ class LoginSpec extends GebReportingSpec {
         given: "User navigates to LoginPage"
             to LoginPage
         when: "User enters invalid credentials"
-            login('joe.admin', 'bad password')
+            login('admin', 'bad password')
         then: "Users sees loginPage"
             at LoginPage
     }
